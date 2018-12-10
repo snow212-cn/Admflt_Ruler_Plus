@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-10
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-11
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 !-----| 不介意其他程序可以稍改语法拿去使用并不意味着可以不尊重维护者的辛苦从而标个来源都偷偷摸摸的
 !-----| 共同学习借鉴也并不丢人，都是为了一个共同的目的————享受无广告，请正确标注来源：emCupid
@@ -95,6 +95,7 @@ S:www.aliyun.com
 S:www.sonkwo.com
 S:ynuf.aliapp.org
 S:yunaq.com
+apk.tw/plugin.php?#@#p.adsbygoogle
 bbs.zol.com.cn#@##bookContent
 news.xinhuanet.com#@#.domPC
 !======[wlist]---↑
@@ -451,6 +452,7 @@ news.xinhuanet.com#@#.domPC
 ||cryptonight-asmjs.min.js
 ||csdnimg.cn/check-adblock/
 ||csdnimg.cn/lib/fuckadblock/
+||cse.google.com/*/ads
 ||ctfile.com/ad_display.php
 ||ctfile.com/iajax_guest.php?item=file_act&action=premium
 ||ctfile.com/img/*ssp*.gif
@@ -719,6 +721,7 @@ aa^^y.com###buffer,.qr_code_pc
 ac.qq.com##[class*="_ad_"],[class*="-ad-"]
 alexa.cn##[class*="important"]
 anhuinews.com##[class^="ad"]
+apk.tw##a[href*="goo.gl"][target],#favatarRight
 assrt.net##.detail-top-banner,#top-banner
 baike.baidu.com##.side-content>[class][style*="block"]
 baofeng.com##[data-ads]
@@ -1389,12 +1392,13 @@ v.17173.com##.side-ad,.ad-lt,.ad-rt
 @@||www.mop.com/css/login.css$pass
 @@||yjsstatic.baidu.com/pkg/app/page/console/*.css$pass
 @@||/editor*.css$pass
-www.gaoqingkong.com#@##ad.search_site
-www.veryhuo.com#@#.down_ads.pad
-read*.qidian.com#@##readHeader
 blog.sina.com.cn/s/#@##sina_keyword_ad_area2
-www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
+read*.qidian.com#@##readHeader
+uu.163.com#@#[class*="down"][id]
 www.baofeng.com#@##js_ads_panel
+www.gaoqingkong.com#@##ad.search_site
+www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
+www.veryhuo.com#@#.down_ads.pad
 !-白名单放行end
 ||update2.admflt.com/v3/version.css$m@http://adm-res.x-boy.cn/emADM_v3version.json
 ||fuckcss/fcss_w.js$m@res:fcss_w.js
