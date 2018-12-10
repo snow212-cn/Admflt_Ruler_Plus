@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-09
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-10
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 !-----| 不介意其他程序可以稍改语法拿去使用并不意味着可以不尊重维护者的辛苦从而标个来源都偷偷摸摸的
 !-----| 共同学习借鉴也并不丢人，都是为了一个共同的目的————享受无广告，请正确标注来源：emCupid
@@ -164,6 +164,7 @@ news.xinhuanet.com#@#.domPC
 |http://*/dc?i=*
 |http://*/ecom-ad/
 |http://*/footBanner_new.js$script
+|http://*/gg.php?id=*
 |http://*/gg/xx*.js
 |http://*/html/click/$document
 |http://*/i.php?^=*
@@ -293,6 +294,7 @@ news.xinhuanet.com#@#.domPC
 |https://*/cpv*.js
 |https://*/cpv/
 |https://*/d/js/*/extended*.js
+|https://*/gg.php?id=*
 |https://*/gg/xx*.js
 |https://*/js/ad.js
 |https://*/js/adleft
@@ -339,6 +341,7 @@ news.xinhuanet.com#@#.domPC
 ||/1000^^0.gif
 ||/521fl/pc.js
 ||/521fl/tj.js
+||/@baidu/*index.js
 ||/Adloader/
 ||/a/display.php?r=
 ||/ad-img/
@@ -586,6 +589,7 @@ news.xinhuanet.com#@#.domPC
 ||sports.mop.com/jscss/v^/js/da.js
 ||ssajax.cn/*info/*global$script
 ||sso.people.com
+||ssp.360.cn/
 ||static.luna.58.com/js/mad.js
 ||static.mediav.com/js/mvf$script
 ||static.segmentfault.com/sponsor/
@@ -630,6 +634,7 @@ news.xinhuanet.com#@#.domPC
 ||www.btdx8.com/tmp/tall.js
 ||www.ccchoo.com/includes/js/float_tips.js
 ||www.cncrk.com/*/js/rjbz.js
+||www.cncrk.com/downinfo/
 ||www.cr173.com/jsBI/js/info.js
 ||www.cr173.com/show/$script
 ||www.danji6.com/xingg/$script
@@ -801,7 +806,7 @@ qlwb.com.cn##.full-banner
 redocn.com##[id$="_gg"]
 segmentfault.com##.side>div[class]
 sh.qihoo.com###extra_totop
-share.weiyun.com##.mod-guide-bar.vip
+share.weiyun.com##.mod-guide-bar.vip,.mod-ad
 sina.cn##[id*="Ads"],[sax-type="proxy"]
 sina.com.cn##[class*="-ad"],[class*="ad_"],.top-banner,.tab_related_app_imglink,[data-info*="ad_none"],.blk-zcapp,[ds-all="suda-all"]
 so.com###rt-gallery,[id^="js-businiess"],#bottom_ask
@@ -1083,6 +1088,7 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||ipm.atm.youku.com/ipm?
 ||irs01.net
 ||log.qianzhan.com
+||log^.mtime.cn/_t.gif
 ||m.wrating.com/m.gif?
 ||msg.qy.net/*.gif?*&
 ||msg.qy.net/b?*&
@@ -1193,7 +1199,7 @@ baidu.com###content_left > [data-click*="rsv_srcid"],#content_left > [style*="di
 hao.360.cn###large2small,#doc-bd-behind,.feed-item.feed-mv,#activity
 www.2345.com,www.9991.com###right>.event1
 www.duba.com##[ad],.box_shopping,.big_mediav,.newslist>[style*="overflow"],.top_func_ad
-www.hao123.com##.treasure-game,.siye,[monkey="shopping"],[monkey*="topbannerad"]
+www.hao123.com##.treasure-game,.siye,[monkey="shopping"],[monkey*="topbannerad"],[monkey*="righttip"]
 www.so.com/s?##[id*="e_idea_pp"],#so_kw-ad
 www.sogou.com###PZL,#PZR
 www.youdao.com##.win-download
