@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-11
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-12
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 !-----| 不介意其他程序可以稍改语法拿去使用并不意味着可以不尊重维护者的辛苦从而标个来源都偷偷摸摸的
 !-----| 共同学习借鉴也并不丢人，都是为了一个共同的目的————享受无广告，请正确标注来源：emCupid
@@ -829,7 +829,7 @@ tool.lu##.ad-container
 ttmeiju.vip##[class*="duilian"],[style*="margin-top"][style*="margin-bottom"]
 tv.sohu.com###beautyLive,#miaozhenad,#playtoolbartg
 ufanw.com###banne
-user.qzone.qq.com##li.f-single-biz,#top_tips_container,[id*="_ad_"],[class*="_ad_"],[class*="ads_"],[class*="right-ad"],[class*="gg-qz-"],#qz_notification
+user.qzone.qq.com##li.f-single-biz,#top_tips_container,[id*="_ad_"],[class*="_ad_"],[class*="ads_"],[class*="right-ad"],[class*="gg-qz-"],#qz_notification,#top_tips_seat
 uuu9.com###uuu9_tips,#top,.top2box
 v.douyu.com##.video-info-download
 v.renrenfabu.com##.hongbao_hd
@@ -932,11 +932,13 @@ zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],
 4399.com##%body{background-image:none!important}
 51cto.com##%.top_bg{height:85px!important}
 bbs.pcbeta.com##%style[type="text/css"]+div{height:auto!important}
+blog.csdn.net##%ol.hljs-ln{width:auto!important}
 enjoy.eastday.com##%#contentMain{height:1575px!important}
 gaoqing.la##%body{background-image:url()!important}
 hanhande.com##%body>.warp{background:none!important}
 item.btime.com##%.header.header-item{padding-bottom:30px}
 s.weibo.com##&.card-wrap:has(iframe)
+user.qzone.qq.com##%.top-fix-inner{margin-top:0!important}
 www.aihami.com##%.conText>.recommend{margin-top:4em}
 www.chinaz.com##%#imgbd{background:none!important}.CCtop{margin-top:10px!important}
 www.dysfz.vip##&li:contains(\u7ea2\u5305),li:contains(\u4f18\u60e0\u5238)
