@@ -701,7 +701,7 @@ news.xinhuanet.com#@#.domPC
 .faloo.com##[class^="ad_"]
 .ifeng.com##div[class^="adv"],.l_ifeng_com,[class^="vAd"],[class^="newAd"],[class^="ad"],[class*="FNewRAvtLisBox"],#wx,.h_top_box,.slide_popo_modal
 .ithome.com###con>div:not([id]):not([class]),.AdblockBanner
-.qq.com##[class*="topAD"],[class*="ad-box"],[adconfig_lview],body>div[style*="width:1000px"],[class*="adzxbtl"],.l_qq_com,.yw-gg-float,.ggshow,[class*="-Ad"]
+.qq.com##[class*="topAD"],[class*="ad-box"],[adconfig_lview],body>div[style*="width:1000px"],[class*="adzxbtl"],[class*="l-qq-com"],[class*="l_qq_com"],.mian-ad,.yw-gg-float,.ggshow,[class*="-Ad"]
 126.com,yeah.net,mail.163.com##.gWel-bottom,li[role="complementary"],.main-inner-wrap>*:not(#loginBlock),div[id$="FooterDiv"],div[id$="AdDiv"],[id*="-ad-"],[id*="_popup_"],.nui-block-hasClose,#loginExt,[id$="Ad"]
 17173.com##[class*="Ad17173"],[id^="adLink"],[class*="ad17173"]:not(.game-hot)
 178.com##[class*="global-ad"]
@@ -752,7 +752,7 @@ down.gamersky.com##.dl_url[style*="position"]
 duote.com##div[class*="-banner"],div[class*="-ad"],#hengfu,[class^="u27"]
 dzwww.com##.popular,[id^="ad"],.top-banner2
 e0575.com,e0575.cn##ul[class^="tg"],#hiddenLayer,#jump,#img2,a[href*="showad.php"]
-eastday.com##.ad-r,#zwad_360ad,[adshow],iframe[id^="ad"],.bigDA,.smallDA,[id*="_ad_"],[id*="-ad-"],div[id^="dsp"],iframe[src*="gg/gg"],[class*="gg_right"],.ave_cns,div[class^="ave_"][id^="left_"],[class*="360_ad"],a[href*="mediav.com/s?type="],[class*="baidu_ad"],div[class$="suspension"],div[id^="lovexin"],[class*="_gg"],[updata*="360gg"],[id^="ggwrap_"],.app-download>div,[href="undefined"],.extend-box,[class*="ssy_"],#readerExtension,.wechatQRcode
+eastday.com##.ad-r,#wechatQRcode,.app-mawrap,#zwad_360ad,[adshow],iframe[id^="ad"],.bigDA,.smallDA,[id*="_ad_"],[id*="-ad-"],div[id^="dsp"],iframe[src*="gg/gg"],[class*="gg_right"],.ave_cns,div[class^="ave_"][id^="left_"],[class*="360_ad"],a[href*="mediav.com/s?type="],[class*="baidu_ad"],div[class$="suspension"],div[id^="lovexin"],[class*="_gg"],[updata*="360gg"],[id^="ggwrap_"],.app-download>div,[href="undefined"],.extend-box,[class*="ssy_"],#readerExtension,.wechatQRcode
 eastmoney.com##.lyad,.popswipe
 edushi.com###unLogin
 eeo.com.cn##.xd-gg
@@ -769,7 +769,7 @@ hanhande.com###bg_link
 health.qq.com##[class^="ad_"]
 hexun.com###newsPopWin
 house.qq.com##.headgg
-hupu.com###hupu-stream,[class*="shihuo"],[id*="-ad-"],[class*="hp-ad"],[class^="ad"],[class*=" ad"]
+hupu.com###hupu-stream,#J_live_container,[class*="shihuo"],[id*="-ad-"],[class*="hp-ad"],[class^="ad"],[class*=" ad"],.m-app
 i.maxthon.cn##.listNews-item-ave,.top-slider-ad
 i.qq.com##.icon_adv_logo,[id^="adImg"]
 ifeng.com##[id^="optimusPrimeContentId"]
@@ -1121,7 +1121,7 @@ www.99re16.com,www.99tt.co##.main>a[target]>img,#index_tan,.leftadv,.rightadv,[i
 ||t66y.com/*.html$S@(setTimeout\(function ?\(\) ?{)@${1}return;@
 ||t66y.com/*.html$s@<br><br>@<br>@
 www.viidii.info,88files______net/download,rmdown.com##a[target] img,#foo1ter
-t66y.com##br+b,b+br,br+b+br+br,b+br+img,img[data-src$=".gif"],img[data-src$=".GIF"],img[data-link*="/index"],.tpc_content>img+br,.tpc_content>a+br+br,.tpc_content>a+br+br+br,.tpc_content>span+br,a[href*="www.viidii.info/?http"]:not([href*="download"]):not([href*="/link"]):not([href*="/fs/"])
+t66y.com##br+b,b+br,br+b+br+br,b+br+img,img[data-src$=".gif"],img[data-src$=".GIF"],img[data-link*="/index"],.tpc_content>:first-child,.tpc_content>img+br,.tpc_content>a+br+br,.tpc_content>a+br+br+br,.tpc_content>span+br,a[href*="www.viidii.info/?http"]:not([href*="download"]):not([href*="/link"]):not([href*="/fs/"])
 www.javbus*##[class*="ad-"],table:not([id]),a[rel="nofollow"]:not([href*="magnet:"]),iframe
 91porn.com##iframe[src*="/fans/"],.vast-blocker
 |http:/*/fans/ad.php|
