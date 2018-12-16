@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-15
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-16
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 !-----| 不介意其他程序可以稍改语法拿去使用并不意味着可以不尊重维护者的辛苦从而标个来源都偷偷摸摸的
 !-----| 共同学习借鉴也并不丢人，都是为了一个共同的目的————享受无广告，请正确标注来源：emCupid
@@ -712,6 +712,7 @@ news.xinhuanet.com#@#.domPC
 51cto.com##.top_bg>.wrap,#edu_adver,.left-ad,.right-ad
 55188.com##.corner-gg
 58.com###home_fl_wrap,#listBottomBar
+58pic.com##.twelveModel,.feast,[id^="model-gift"],[id^="search_"]>*,.twelveFixedPage,.tallyActivity
 678cn.com##.ibtad
 72du.com##.tipb
 7k7k.com###player-ad,#J-loop-flash,.loop-flash
