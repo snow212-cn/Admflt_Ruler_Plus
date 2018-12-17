@@ -97,6 +97,7 @@ S:yunaq.com
 apk.tw/plugin.php?#@#p.adsbygoogle
 bbs.zol.com.cn#@##bookContent
 blog.sina.com.cn/s/#@##sina_keyword_ad_area2
+gitee.com/login#@#.form-with-enterprise-ad
 news.xinhuanet.com#@#.domPC
 paopaoche.net#@##address
 read*.qidian.com#@##readHeader
