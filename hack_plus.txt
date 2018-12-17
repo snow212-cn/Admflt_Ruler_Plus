@@ -97,6 +97,7 @@ S:yunaq.com
 apk.tw/plugin.php?#@#p.adsbygoogle
 bbs.zol.com.cn#@##bookContent
 news.xinhuanet.com#@#.domPC
+paopaoche.net#@##address
 !======[wlist]---↑
 
 !======[adm add socks]-----↓
