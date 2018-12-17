@@ -96,8 +96,16 @@ S:ynuf.aliapp.org
 S:yunaq.com
 apk.tw/plugin.php?#@#p.adsbygoogle
 bbs.zol.com.cn#@##bookContent
+blog.sina.com.cn/s/#@##sina_keyword_ad_area2
 news.xinhuanet.com#@#.domPC
 paopaoche.net#@##address
+read*.qidian.com#@##readHeader
+uu.163.com#@#[class*="down"][id]
+www.baofeng.com#@##js_ads_panel
+www.gaoqingkong.com#@##ad.search_site
+www.guangyuanol.cn#@#.lb_right>[class*="ad"]
+www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
+www.veryhuo.com#@#.down_ads.pad
 !======[wlist]---↑
 
 !======[adm add socks]-----↓
@@ -952,6 +960,7 @@ www.panda.tv##%.index-slider-video-container{background:none!important}
 www.rjno1.com##&body>*:contains(ad blocker)
 www.tiexue.net/ShowPicClass##%.picleft{display:block!important}
 www.yy.com##%#banner-fg{background:none!important}
+zdface.com/*.shtml##%.top-tool{margin-top:60px}
 zimuzu.tv##%#output{background:url(https://i.loli.net/2018/10/30/5bd8793b200fd.jpg) center /cover!important}
 zol.com.cn##%body{background-image:none!important}
 !======[Admflt ABPex css]---↑
@@ -1001,7 +1010,6 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||aikan-tv.com/*url=*$S@rows='\d*(%)*,\d*(%)*'@rows='100%'@
 ||alicdn.com/player/ykplayer/*/youku-player.min.js$s@this.bufferTime=t@this.bufferTime=0@
 ||api.bilibili.com/x/web-show/res/loc?pf=0&id=$f@302:s@id=\d{2,4}@id=1@
-||api.svip.baiyug.cn/*?url=*$S@$@<style>#a1{margin-top:-23px}</style>@s
 ||ckplayer.js$S@(advmarquee:).+?\),@${1}'',@sg
 ||comic.kukudm.com/js/*.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
 ||csdnimg.cn/*passport*login.css$S@$@.login-banner{width:500px!important}@s
@@ -1031,20 +1039,15 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||vipsite.info$s@function Demo()@function noDemo()@
 ||www.19fa.com/jx/index*$S@<frame .*?\.html[^>]>@@
 ||www.19fa.com/jx/index*$S@rows='\d*(%)*,\d*(%)*'@rows='100%'@
-||www.55ff1.com/*.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
-||www.65yw.com$S@<frame .*?\.html[^>]>@@
-||www.65yw.com$S@rows='\d*(%)*,\d*(%)*'@rows='100%'@
-||www.amfuli.com/*.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
+||www.52movieba.com/forum/$s@var ua*</script>@</script>@ig
 ||www.ccchoo.com/down*.html$S@secs ?= ?\d{1,2};@secs=0;@
 ||www.gaoqingkong.com$s@</head>@<script>window.open=null</script></head>@
 ||www.greenxf.com/js/maim.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
-||www.igeek.com.cn/static/css/articlen/style.css$S@(\.ad_box[^{]*{)[^}]*@${1}display:none@
 ||www.jz5u.com/js/t*.js$S@^.*@@s
 ||www.laozuo.org/wp-content/themes/*.js$S@^( )*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
 ||www.pc0359.cn/style/js/main.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
 ||www.zdfans.com/js/page.js$s@rm=="2"@rm=="9"@
-||www.zhicheng.com/statics/v2/js/global.js$S@$@function tyLoader(){return!0}@s
-||yande.re$s@hide-advanced-editing@@
+||www.zhicheng.com/statics/v2/js/global.js$S@$@function tyLoader(){return}@s
 !======[replace]---↑
 
 !======[Web Track Logs]---↓
@@ -1130,6 +1133,8 @@ www.javbus*##[class*="ad-"],table:not([id]),a[rel="nofollow"]:not([href*="magnet
 |http:/*/fans/ad.php|
 91ad_cn_CN.php$s@<![CDATA[*]]>@<![CDATA[http://ssl.admflt.com/doc/block/null.mp4]]>@
 91ad_cn_CN.php$S@\d{2}:\d{2}:\d{2}@00:00:01@
+||www.amfuli.com/*.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
+||www.55ff1.com/*.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
 !======[H webs]---↑
 
 !======[Baidu&&Cpro]---↓
@@ -1398,13 +1403,6 @@ v.17173.com##.side-ad,.ad-lt,.ad-rt
 @@||www.mop.com/css/login.css$pass
 @@||yjsstatic.baidu.com/pkg/app/page/console/*.css$pass
 @@||/editor*.css$pass
-blog.sina.com.cn/s/#@##sina_keyword_ad_area2
-read*.qidian.com#@##readHeader
-uu.163.com#@#[class*="down"][id]
-www.baofeng.com#@##js_ads_panel
-www.gaoqingkong.com#@##ad.search_site
-www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
-www.veryhuo.com#@#.down_ads.pad
 !-白名单放行end
 ||update2.admflt.com/v3/version.css$m@http://adm-res.x-boy.cn/emADM_v3version.json
 ||fuckcss/fcss_w.js$m@res:fcss_w.js
