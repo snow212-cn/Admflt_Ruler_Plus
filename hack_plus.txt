@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-16
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-17
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 !-----| 不介意其他程序可以稍改语法拿去使用并不意味着可以不尊重维护者的辛苦从而标个来源都偷偷摸摸的
 !-----| 共同学习借鉴也并不丢人，都是为了一个共同的目的————享受无广告，请正确标注来源：emCupid
@@ -365,6 +365,7 @@ news.xinhuanet.com#@#.domPC
 ||/js/cmp.js
 ||/js/sspAd
 ||/js/wmz_gg.js
+||/kchtml/pc_main.js
 ||/multiads/
 ||/nativeads.js
 ||/ntesrich/*dlbox.js
@@ -932,6 +933,7 @@ zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],
 126.com,yeah.net,mail.163.com##%#mainCnt{background:none!important}
 4399.com##%body{background-image:none!important}
 51cto.com##%.top_bg{height:85px!important}
+aizhan.com##&li:has(img[src*="watermark.png"]),.azone
 bbs.pcbeta.com##%style[type="text/css"]+div{height:auto!important}
 blog.csdn.net##%ol.hljs-ln{width:auto!important}
 enjoy.eastday.com##%#contentMain{height:1575px!important}
