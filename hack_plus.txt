@@ -5,7 +5,7 @@
 @@|http://*.x-boy.cn/$pass
 @@||/hack_plus.txt$pass
 @@||UA-130416852-1$pass
-@@||frame-vip.min.html$pass
+@@||/frame-vip.min.html$pass
 S:x-boy.cn
 !======[wlist for self]---↑
 
@@ -1039,7 +1039,7 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||vipsite.info$s@function Demo()@function noDemo()@
 ||www.19fa.com/jx/index*$S@<frame .*?\.html[^>]>@@
 ||www.19fa.com/jx/index*$S@rows='\d*(%)*,\d*(%)*'@rows='100%'@
-||www.52movieba.com/forum/$s@var ua*</script>@</script>@ig
+||www.52movieba.com$s@var ua*</script>@</script>@ig
 ||www.ccchoo.com/down*.html$S@secs ?= ?\d{1,2};@secs=0;@
 ||www.gaoqingkong.com$s@</head>@<script>window.open=null</script></head>@
 ||www.greenxf.com/js/maim.js$S@^[ \t]*?document.write.+?(a.*?href.*?(target)?|iframe|script).+?\);?@@img
