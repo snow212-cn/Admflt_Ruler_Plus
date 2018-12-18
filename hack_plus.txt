@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-17
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-18
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -80,6 +80,7 @@ S:dev.tencent.com
 S:dnspod.cn
 S:dnspod.com
 S:exmail.qq.com
+S:githubassets.com
 S:jd.hk
 S:newdefend.com
 S:passport.aliyun.com
