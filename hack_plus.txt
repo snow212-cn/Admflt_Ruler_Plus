@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-18
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-19
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -866,6 +866,7 @@ www.admin5.com##.logo_textAd,.logoAd,.headerAd,.footerAd,.adr,.infoAd,[data-zbj-
 www.aihami.com##.conText>div[style],.adDingT,.ad640x90,ad300x90,.h250
 www.beianbeian.com##form a
 www.bilibili.com##.bilibili-player-promote-wrap,#v_top_gg,#slide_ad,#bannerAd,[class*="gg-"],#fixed_app_download
+www.bt.cn/bbs/##.btad
 www.btbtt##a[style*="float"][target*="blank"]>img[style*="width"]
 www.ccchoo.com###ann_list,.down_two>[class="clearfix"],.down_tl,.down_three
 www.chapaofan.com##[class^="pf-ad"],.details-ad
@@ -1287,17 +1288,18 @@ youtube.com##.video-ads,#player-ads,ytd-compact-promoted-video-renderer,#masthea
 !======[www.youtube.com]---↑
 
 !======[www.iqiyi.com]---↓
-iqiyi.com##[id^="1000"],.banner_box,.vipFloatbgCls,.J_play-underFrame,.qy-mod-ad,.integral_box,[data-player-hook="switchflash"],.search_result_download,.anchor-wenjuan,.tw-app-download,.iqp-box-integral,[data-cupid="container"]>div[style*="position"][style*="pointer"]
+iqiyi.com##[id^="1000"],.banner_box,.vipFloatbgCls,.iqp-filter-box,.J_play-underFrame,.qy-mod-ad,.integral_box,[data-player-hook="switchflash"],.search_result_download,.anchor-wenjuan,.tw-app-download,.iqp-box-integral,[data-cupid="container"]>div[style*="position"][style*="pointer"]
 live.iqiyi.com###modal[data-count]
 www.iqiyi.com/*.html##.rightPCAdv,.pca-img
 ||cupid.iqiyi.com/show2?e=*$S@("\w*?":")\d+?",@${1}0",@
-||cupid.iqiyi.com/show2?e=*$S@"[^"]+?\.(jpg|png)"@""@
+||cupid.iqiyi.com/show2?e=*$S@"[^"]+?\.(jpg|png|swf)"@""@
 ||cupid.iqiyi.com/show2?a=qc_$domain=~live.iqiyi.com
 !||ssports.iqiyi.com/app/front.json$S@"time":\d{1,2}@"time":0@
 !||ssports.com/advertisement-file/*.mp4$m@res:block/null.mp4
 ||ssports.iqiyi.com/app/front.json
 ssports.com##[class*="ad"]:not([class*="head"]),.ssports-member
 ||qiyu.iqiyi.com/p13n20?
+||static-s.iqiyi.com/common/201*/cupid/*.swf
 ||static.iqiyi.com/js/player_v1/pcweb.wonder.js$s@QiyiPlayerConfig.FLASH_PLAYER_ZURL@"http://player.video.iqiyi.com/0/0/"@
 ||stc.iqiyipic.com/gaze/uniqy/main/js/vendor*.js$S@(setAttribute\("src",(.*?)\)),@${1},window._qyv_info=window._qyv_info||[],(${2}).match(/(dataid|video\/)/)&&window._qyv_info.push((${2})),@
 !======[www.iqiyi.com]---↑
