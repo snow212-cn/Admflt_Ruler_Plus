@@ -1126,7 +1126,7 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 
 !======[H webs]---↓
 www.99re16.com,www.99tt.co##.main>a[target]>img,#index_tan,.leftadv,.rightadv,[id^="pop"],[id^="layui"],.wrap-head-spots,.spots
-||t66y.com/*.html$S@(readS\w*?\(\) ?{)@${1}return;@ig
+||t66y.com/*.html$S@((!?function )[readS\w]+\(\) ?{)@${1}return;@ig
 ||t66y.com/*.html$S@(setTimeout\(function ?\(\) ?{)@${1}return;@
 ||t66y.com/*.html$s@<br><br>@<br>@
 www.viidii.info,88files______net/download,rmdown.com##a[target] img,#foo1ter
