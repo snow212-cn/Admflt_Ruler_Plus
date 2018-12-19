@@ -98,7 +98,6 @@ S:yunaq.com
 apk.tw/plugin.php?#@#p.adsbygoogle
 bbs.zol.com.cn#@##bookContent
 blog.sina.com.cn/s/#@##sina_keyword_ad_area2
-gitee.com/login#@#.form-with-enterprise-ad
 news.xinhuanet.com#@#.domPC
 paopaoche.net#@##address
 read*.qidian.com#@##readHeader
@@ -1203,7 +1202,7 @@ tieba.baidu.com,tieba.com,jump2.bdimg.com##%body,#glob{margin-top:0!important}
 tieba.baidu.com,tieba.com,jump2.bdimg.com##.appPromote,#pblist>li:not([tid]):not([data-info]),a.j_click_stats,a.j_click_stats+*,.tl_shadow.tl_shadow_new+[class*="tl_shadow_new "]
 tieba.baidu.com,zhidao.baidu.com,wenku.baidu.com##[class*="EC_"],[class*="union"]
 zhidao.baidu.com###cms-scroll,#wgt-promotions,.question-number-text-chain,.ec-ad
-wenku.baidu.com##.banner-wrap,[href*="adfree"],.lastcell-dialog,[class*="adWrap"],.search-result>[id],[class*="vip-close"],.yuedu-recommend-wrap iframe
+wenku.baidu.com##.banner-wrap,[href*="adfree"],.lastcell-dialog,[class*="adWrap"],.search-result>[id],[class*="vip-close"],.yuedu-recommend-wrap iframe,#banurl
 ||wkstatic.bdimg.com/static/wkview/pkg/viewcommon2$S@(/ad|/crm)@/noad@
 !||baidu.com/link?url=$S@^.*?<noscript>@@s
 @@||baidu.com/link?url=*$pass
