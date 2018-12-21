@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-21
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-22
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -165,6 +165,7 @@ www.veryhuo.com#@#.down_ads.pad
 |http://*/advert/*
 |http://*/advs/$script
 |http://*/banner*.js
+|http://*/c/c.js|
 |http://*/c/js/$script
 |http://*/cpm*.js
 |http://*/cpv*.js
@@ -300,6 +301,7 @@ www.veryhuo.com#@#.down_ads.pad
 |https://*/ads.php
 |https://*/ads.php?*id*=*
 |https://*/banner*.js
+|https://*/c/c.js|
 |https://*/cpm*.js
 |https://*/cpv*.js
 |https://*/cpv/
@@ -380,6 +382,7 @@ www.veryhuo.com#@#.down_ads.pad
 ||/ntesrich/*dlbox.js
 ||/projectpoi
 ||/sinaads/
+||/tongji/*.js
 ||/undefined
 ||/view/image/QT_HY.jpg
 ||030e.com/img/clipboard.min.js
@@ -698,6 +701,7 @@ www.veryhuo.com#@#.down_ads.pad
 ||youle55.com
 ||yxbao.yxbao.com/js/$script
 ||yyrtv.com/*=Advs
+||yzz.cn/htmldata/mds/yzz_single_gg.js
 ||z.xici.net/r/
 ||zgw.sunrtb.com/s?m=
 ||zlongad.com/*ads?
@@ -721,6 +725,7 @@ www.veryhuo.com#@#.down_ads.pad
 3g.163.com##[id^="ssp-"]
 4399.com###addiv,#defaultbglink,.a-d
 51cto.com##.top_bg>.wrap,#edu_adver,.left-ad,.right-ad
+52pk.com###bg_link,.floatad,.art_wx
 55188.com##.corner-gg
 58.com###home_fl_wrap,#listBottomBar
 58pic.com##.twelveModel,.feast,[id^="model-gift"],[id^="search_"]>*,.twelveFixedPage,.tallyActivity
@@ -919,7 +924,7 @@ www.wpdaxue.com##a[href*="/go/"][rel="nofollow"],.text-html-box a[href*="/go/"],
 www.xdowns.com###tips.tips,[class*="tui"]
 www.xianliao.me##[class^="ads_"]
 www.xiazaiba.com##[class^="adv-"]
-www.yxdown.com/*.html##div[id*="adv"],iframe,#highdown
+www.yxdown.com##div[id*="adv"],#highdown,.pic_show
 www.yy.com##.bg-link,#sideNotice
 www.zhangxinxu.com###topAdOut,[id^="da"][id$="Float"],a[onClick][style*="display:block!important"]
 www.zhicheng.com###m_ccs
@@ -934,6 +939,7 @@ yahoo.com##[id*="-Ad"]
 ynet.com##.ynetGCom
 ys.km.com###baiduIvy,#bottom_focus_ivy,#js-swiper-focus-banner
 yunlaige.com##[id*="_baidu"],#downdiv
+yzz.cn###ad-game,.m-gs,.shuwu-img,.shuwu-qr,.agift
 zcool.com##[class*="advertisement"],#cubeAd
 zhihu.com##.Card.Banner,[data-info*="ad_id"]
 zmtiantang.com###myModal,.modal-backdrop
@@ -946,6 +952,7 @@ zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],
 126.com,yeah.net,mail.163.com##%#mainCnt{background:none!important}
 4399.com##%body{background-image:none!important}
 51cto.com##%.top_bg{height:85px!important}
+52pk.com##%body>div[style*="background"]{background:none!important}
 aizhan.com##&li:has(img[src*="watermark.png"]),.azone
 bbs.pcbeta.com##%style[type="text/css"]+div{height:auto!important}
 blog.csdn.net##%ol.hljs-ln{width:auto!important}
@@ -965,6 +972,7 @@ www.panda.tv##%.index-slider-video-container{background:none!important}
 www.rjno1.com##&body>*:contains(ad blocker)
 www.rs05.com##&li:contains(\u652f\u4ed8\u5b9d),li:contains(\u5bb6\u91cc\u6ca1\u77ff),.home-list:contains(\u4f18\u60e0\u5238),.shadow:contains(\u9001):contains(\u4e66\):contains(\u5566)
 www.tiexue.net/ShowPicClass##%.picleft{display:block!important}
+www.yxdown.com##%#topsearch{top:auto!important}
 www.yy.com##%#banner-fg{background:none!important}
 zdface.com/*.shtml##%.top-tool{margin-top:60px}
 zimuzu.tv##%#output{background:url(https://i.loli.net/2018/10/30/5bd8793b200fd.jpg) center /cover!important}
