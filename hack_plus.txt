@@ -738,7 +738,7 @@ assrt.net##.detail-top-banner,#top-banner
 baike.baidu.com##.side-content>[class][style*="block"]
 baofeng.com##[data-ads]
 bbs.csdn.net##.post_recommend
-bbs.hupu.com##[class*="hp-ad"]
+bbs.hupu.com##[class*="hp-ad"],.topPub
 bbs.mydigit.cn##.txtMes,[channelid="smzdm"],[channelid="shumatao"],.radi
 bbs.pcbeta.com##.asdad+div
 bbs.zhiyoo.com###down_app
