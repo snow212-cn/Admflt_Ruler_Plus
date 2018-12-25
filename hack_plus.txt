@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-24
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-25
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -69,13 +69,16 @@ S:api.geetest.com
 S:api.weibo.com
 S:auth.sonkwo.com
 S:bitwarden.com
+S:cart.aliyun.com
 S:cf.aliyun.com
 S:cloud.tencent.com
 S:cloudflare.com
 S:cloudxns.net
 S:codehub.cn
 S:coding.net
+S:console.aliyun.com
 S:console.bce.baidu.com
+S:data.aliyun.com
 S:dev.tencent.com
 S:dnspod.cn
 S:dnspod.com
@@ -83,9 +86,11 @@ S:exmail.qq.com
 S:githubassets.com
 S:jd.hk
 S:newdefend.com
+S:page.aliyun.com
 S:passport.aliyun.com
 S:pay.qq.com
 S:portal.verycloud.cn
+S:promotion.aliyun.com
 S:ptlogin2.qq.com
 S:res.suning.cn
 S:suning.com
@@ -938,6 +943,7 @@ xinhuanet.com##[id^="YCADS"],.Xfuchaung
 xmfish.com###marry_laping,.bobing-theme,.wrapxy,.cmp_v,#b_login
 yahoo.com##[id*="-Ad"]
 ynet.com##.ynetGCom
+yq.aliyun.com##.yq-main-left>a[rel="nofollow"]
 ys.km.com###baiduIvy,#bottom_focus_ivy,#js-swiper-focus-banner
 yunlaige.com##[id*="_baidu"],#downdiv
 yzz.cn###ad-game,.m-gs,.shuwu-img,.shuwu-qr,.agift
@@ -1240,12 +1246,12 @@ www.youdao.com##.win-download
 ||ark.letv.com/adx$s@"Ad"@"noAd"@
 ||ark.letv.com/s?$s@"Ad"@"noAd"@
 ||api.message.le.com/v^/messages?
-||letvimg.com/*loading.swf
+||letvimg.com/*.swf
 !||play.videocache.lecloud.com/*/letv-gug/*.mp4
 !======[www.le.com]---↑
 
 !======[v.qq.com]---↓
-v.qq.com##.tvip_layer,.mask_layer,.mod_ad,.player_bg_ad,a[href*="mall.jd.com"],.jimu-module a[target]:not([href*="qq.com"]),body>div[style*="pointer-events: none"][style*="transition"],.mod_scene_change
+v.qq.com###mask_layer,.mod_ad,.player_bg_ad,a[href*="mall.jd.com"],.jimu-module a[target]:not([href*="qq.com"]),body>div[style*="pointer-events: none"][style*="transition"],.mod_scene_change
 ||variety.tc.qq.com
 !||vlive.qqvideo.tc.qq.com
 ||bla.gtimg.com/qqlive/*.mp4
