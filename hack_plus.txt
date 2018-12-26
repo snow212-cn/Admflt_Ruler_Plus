@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-25
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-26
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -825,7 +825,7 @@ q.z.vip.totv.72du.com##.secs strong
 qiannao.com##a[href*="from=qiao"]
 qianzhan.com##.advBox,.footApp,.shop-tj,a[href*="www.qianzhan.com/go/"]
 qichamao.com##.side-ad1
-qidian.com##[id^="banner"],div[id^="j-"]:not([class*="content"]),div[id^="j_"].hidden,.operation-wrap,[id$="-ops"],[id$="-op"]
+qidian.com##[id^="banner"],div[id^="j-"]:not([class*="content"]),div[id^="j_"].hidden,.operation-wrap,[id$="-ops"],[id$="-op"],body>div[style*="background:"]
 qihoo.com##[id*="_gg"],[data-ggclick="ad"]
 qiushibaike.com##.shopwindow,#sidebar-remix
 qiuziti.com##.popularize,.search_wordimg,a[rel="nofollow"][target*="blank"]>img
