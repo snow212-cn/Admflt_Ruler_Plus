@@ -86,6 +86,7 @@ S:exmail.qq.com
 S:githubassets.com
 S:jd.hk
 S:newdefend.com
+S:nga.178.com
 S:page.aliyun.com
 S:passport.aliyun.com
 S:pay.qq.com
