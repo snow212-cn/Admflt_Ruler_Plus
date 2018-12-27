@@ -105,7 +105,6 @@ bbs.zol.com.cn#@##bookContent
 blog.sina.com.cn/s/#@##sina_keyword_ad_area2
 news.xinhuanet.com#@#.domPC
 paopaoche.net#@##address
-read*.qidian.com#@##readHeader
 uu.163.com#@#[class*="down"][id]
 www.baofeng.com#@##js_ads_panel
 www.gaoqingkong.com#@##ad.search_site
