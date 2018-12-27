@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-26
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-27
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -112,6 +112,7 @@ www.gaoqingkong.com#@##ad.search_site
 www.guangyuanol.cn#@#.lb_right>[class*="ad"]
 www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
 www.veryhuo.com#@#.down_ads.pad
+yzz.cn#@#center>a[target="_blank"]
 !======[wlist]---↑
 
 !======[adm add socks]-----↓
@@ -519,6 +520,7 @@ www.veryhuo.com#@#.down_ads.pad
 ||hao6v.com/d/f.js
 ||hao6v.com/d/f^.js
 ||hauchi.com.tw
+||heirui.cn/*snow.js
 ||home.51cto.com/iframe/*-ads
 ||home.51cto.com/iframe/*-adv
 ||hongbao$image
@@ -722,7 +724,7 @@ www.veryhuo.com#@#.down_ads.pad
 .ifeng.com##div[class^="adv"],.l_ifeng_com,[class^="vAd"],[class^="newAd"],[class^="ad"],[class*="FNewRAvtLisBox"],#wx,.h_top_box,.slide_popo_modal
 .ithome.com###con>div:not([id]):not([class]),.AdblockBanner
 .qq.com##[class*="topAD"],[class*="ad-box"],[adconfig_lview],body>div[style*="width:1000px"],[class*="adzxbtl"],[class*="l-qq-com"],[class*="l_qq_com"],.mian-ad,.yw-gg-float,.ggshow,[class*="-Ad"]
-126.com,yeah.net,mail.163.com##.gWel-bottom,li[role="complementary"],.main-inner-wrap>*:not(#loginBlock),div[id$="FooterDiv"],div[id$="AdDiv"],[id*="-ad-"],[id*="_popup_"],.nui-block-hasClose,#loginExt,[id$="Ad"]
+126.com,yeah.net,mail.163.com##.gWel-bottom,li[role="complementary"],.main-inner-wrap>*:not(#loginBlock),div[id$="FooterDiv"],div[id$="AdDiv"],[id*="-ad-"],[id*="_popup_"],.nui-block-hasClose,#loginExt,[id$="Ad"],[id$="BannerDiv"]
 17173.com##[class*="Ad17173"],[id^="adLink"],[class*="ad17173"]:not(.game-hot)
 178.com##[class*="global-ad"]
 21ic.com##.topbanner,.bigbanner,[class^="banner"],[class^="ad_"],[class*="_ad"],iframe[src*="/s?m"],[id$="Ad"],.nui-closeable
@@ -791,6 +793,7 @@ google.com##.ads-ad
 guokr.com##[class*="-advert"],.guokr-layer-beforelogin
 hanhande.com###bg_link
 health.qq.com##[class^="ad_"]
+heirui.cn##[class$="-mask"],[id^="kefu"],[class*="wptao"]
 hexun.com###newsPopWin
 house.qq.com##.headgg
 hupu.com###hupu-stream,#J_live_container,[class*="shihuo"],[id*="-ad-"],[class*="hp-ad"],[class^="ad"],[class*=" ad"],.m-app
