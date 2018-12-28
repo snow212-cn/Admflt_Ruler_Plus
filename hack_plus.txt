@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-27
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-28
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -758,6 +758,7 @@ bbs.zhiyoo.com###down_app
 bbs.zol.com.cn##.tmall-activies,.fixed-login-bar,.tmall
 blog.51cto.com##[id*="topbanner"][style]
 brtn.cn,btime.com##[adview-id],[id^="adview"],[id^="cpm-"]
+brushes8.com##[class^="zjianad"]
 bt-film.co*##[id^="ad"]
 china.com.cn##iframe[src*="china.com.cn"][src*="ads/"]
 chinacar.com.cn##.left_pouple_box
@@ -1439,8 +1440,8 @@ v.17173.com##.side-ad,.ad-lt,.ad-rt
 ||block_res/null.mp4$m@res:block/null.mp4
 ||block_res/block.m3u8$m@res:block/block.m3u8
 ||/doc/fuckcss.js
-|http://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js></script><script src=http://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
-|https://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js></script><script src=https://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
+!|http://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js></script><script src=http://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
+!|https://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js></script><script src=https://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
 ||*/*.css|$S@z-index(:| )*(9){4,5}\d@${1};display:none!important;max-width:0!important;max-height:0;overflow:hidden;visibility:hidden!important;hackcss:@
 !------[全局处理浮动窗+隐藏类规则屏蔽增强end]
 
