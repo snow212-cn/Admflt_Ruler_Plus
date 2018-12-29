@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-28
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-29
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -865,7 +865,7 @@ v2ex.com##.inner[align="center"],.inner[align="center"]+.sidebar_compliance,.sid
 v2ex.com/t/##.inner>a:not([class]):not([id]):not([href^="/"]),.inner>span[class],.inner>strong.green
 vipsite.info###yhq,.sj-nav-down-search,[style*="text-align:center"]
 webkaka.com##a[href*="/click/"],#div_top,#dedenews,span[class*="Ad"],p[class*="Ad"]
-weibo.com##div[ad-data],[feedtype="ad"],a[href*="adid="],[suda-data="key=tblog_weibologin3&value=picture"],.wbv-ad
+weibo.com##div[ad-data],[feedtype="ad"],a[href*="adid="],[suda-data="key=tblog_weibologin3&value=picture"],.wbv-ad,a[href*="shop.sc.weibo.com"][href*="jump_url="]
 wemedia.ifeng.com##.h_top_box,.yc_con_r a iframe
 www.17ce.com##[class^="add_"]
 www.17sucai.com##div[class^="tb"][class*="x"]$B
@@ -952,7 +952,7 @@ ys.km.com###baiduIvy,#bottom_focus_ivy,#js-swiper-focus-banner
 yunlaige.com##[id*="_baidu"],#downdiv
 yzz.cn###ad-game,.m-gs,.shuwu-img,.shuwu-qr,.agift
 zcool.com##[class*="advertisement"],#cubeAd
-zhihu.com##.Card.Banner,[data-info*="ad_id"]
+zhihu.com##.Banner-link,.Pc-card-button-close,[data-info*="ad_id"]
 zmtiantang.com###myModal,.modal-backdrop
 znjj.tv##.fiveGgao,.footerGG
 zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],#bgad,[id^="ad_"],.today-hot-layer,.ad-topwrap,.ad-soft-box
