@@ -715,6 +715,7 @@ yzz.cn#@#center>a[target="_blank"]
 ||zlongad.com/ad/
 ||zol-img.com.cn/detail_ad/
 ||adsgoby.com
+||6686555.com
 !======[block]---↑
 
 !======[ABP css]---↓
@@ -1151,9 +1152,12 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 www.99re16.com,www.99tt.co##.main>a[target]>img,#index_tan,.leftadv,.rightadv,[id^="pop"],[id^="layui"],.wrap-head-spots,.spots
 ||t66y.com/*.html$S@((!?function )[readS\w]+\(\) ?{)@${1}return;@ig
 ||t66y.com/*.html$S@(setTimeout\(function ?\(\) ?{)@${1}return;@
-||t66y.com/*.html$s@<br><br>@<br>@
+||t66y.com/read.php$S@((!?function )[readS\w]+\(\) ?{)@${1}return;@ig
+||t66y.com/read.php$S@(setTimeout\(function ?\(\) ?{)@${1}return;@
+||t66y.com/read.php$s@<br><br>@<br>@
 www.viidii.info,88files______net/download,rmdown.com##a[target] img,#foo1ter
-t66y.com##br+b,b+br,br+b+br+br,b+br+img,img[data-src$=".gif"],img[data-src$=".GIF"],img[data-link*="/index"],.tpc_content>:first-child,.tpc_content>img+br,.tpc_content>a+br+br,.tpc_content>a+br+br+br,.tpc_content>span+br,a[href*="www.viidii.info/?http"]:not([href*="download"]):not([href*="/link"]):not([href*="/fs/"])
+t66y.com##br+b,b+br,br+b+br+br,b+br+img,img[data-src$=".gif"],img[data-src$=".GIF"],img[data-link*="/index"],.tpc_content>:first-child,.tpc_content>img+br,.tpc_content>a+br+br,.tpc_content>a+br+br+br,.tpc_content>span+br,.tpc_content>span+br+br,.tpc_content>span+br+br+br,.tpc_content>span+br+br+br+br,a[href*="www.viidii.info/?http"],a[href*="www.viidii.info/?http"]+br,a[href*="www.viidii.info/?http"]+br+br
+t66y.com#@#a[href*="?hash="][target],a[href*="/link"][target],a[href*="/fs/"][target],a[href*="/download"][target]
 www.javbus*##[class*="ad-"],table:not([id]),a[rel="nofollow"]:not([href*="magnet:"]),iframe
 91porn.com##iframe[src*="/fans/"],.vast-blocker
 |http:/*/fans/ad.php|
@@ -1432,6 +1436,7 @@ v.17173.com##.side-ad,.ad-lt,.ad-rt
 @@||www.mop.com/css/login.css$pass
 @@||yjsstatic.baidu.com/pkg/app/page/console/*.css$pass
 @@||/editor*.css$pass
+@@||tb^.bdstatic.com/*tb/*css$pass
 !-白名单放行end
 ||update2.admflt.com/v3/version.css$m@http://adm-res.x-boy.cn/emADM_v3version.json
 ||fuckcss/fcss_w.js$m@res:fcss_w.js
