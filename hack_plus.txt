@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-30
+!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-31
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -1052,6 +1052,7 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||gaoqing.la$s@</head>@<script>document.write=null;</script></head>@
 ||jx.2012net.com$s@fuckyou();@@
 ||km.com/*/play_detail.js$S@num: ?\d{1,2},@num:0,@
+||linkstars.com/click.php$s@</script>@;window.location.href=LKST_jump_orig;</script>@
 ||q.z.vip.totv.72du.com$S@,[1-9][0]{3}@,1000@
 ||show-^.mediav.com$S@"ads":.?\[.?{.*}.?]@"ads":[{}]@sig
 ||show-^.mediav.com$S@"duration":\d{1,2}@"duration":0@
