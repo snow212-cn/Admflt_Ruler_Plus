@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2018-12-31
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-02
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -113,6 +113,7 @@ www.guangyuanol.cn#@#.lb_right>[class*="ad"]
 www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
 www.veryhuo.com#@#.down_ads.pad
 yzz.cn#@#center>a[target="_blank"]
+web.sanguosha.com#@##gameContainer
 !======[wlist]---↑
 
 !======[adm add socks]-----↓
@@ -1133,7 +1134,7 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||msg.qy.net/b?*&
 ||optimix.asia
 ||pv.hd.sohu.com
-||pv.sohu.com
+||pv.sohu.com$domain=~imeiju.cc
 ||qq.com/stdlog/
 ||rs.sinajs.cn
 ||s.360.cn/*/s.htm?
