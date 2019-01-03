@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-02
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-03
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -264,6 +264,7 @@ web.sanguosha.com#@##gameContainer
 |http://temp.163.com/special/*_pop_js.js
 |http://u-x.jd.com/static/$script
 |http://union*.js
+|http://union^.*
 |http://v.163.com/*ADManager.swf
 |http://www.163nvren.com/daima.js
 |http://www.1kkk.com/wxh
@@ -342,6 +343,7 @@ web.sanguosha.com#@##gameContainer
 |https://p.ssl.so.com/p/
 |https://ssp.$script
 |https://union*.js
+|https://union^.*
 ||*.google*/*ads*.js
 ||*ad*.googlesyndication.com/$script
 ||*adfly.com/show.php
@@ -407,6 +409,7 @@ web.sanguosha.com#@##gameContainer
 ||51cto.com/edu/blog/mobile/js/lib/box.js
 ||52pk.com/*/webThunderDetect.js
 ||52pk.com/*/yingsu.js
+||6686555.com
 ||71.am/*AdManager
 ||750.js
 ||7down.com/misc/static/down*.html
@@ -426,6 +429,7 @@ web.sanguosha.com#@##gameContainer
 ||adsafeprotected.com
 ||adservice.google.com
 ||adsfile.qq.com/$script
+||adsgoby.com
 ||adshow.58.com
 ||adshow.php
 ||adwmcdn.suning.com
@@ -632,6 +636,7 @@ web.sanguosha.com#@##gameContainer
 ||tanxssp.js
 ||temaidi.com/*.js*pid=*$script
 ||theta.sogoucdn.com
+||tianqi.2345.com/plugin/
 ||tiexue.net/ajax/getcityforip.ashx$block
 ||tj.ali213.net$script
 ||tongji/tj.php
@@ -715,8 +720,6 @@ web.sanguosha.com#@##gameContainer
 ||zlongad.com/*ads?
 ||zlongad.com/ad/
 ||zol-img.com.cn/detail_ad/
-||adsgoby.com
-||6686555.com
 !======[block]---↑
 
 !======[ABP css]---↓
@@ -726,6 +729,7 @@ web.sanguosha.com#@##gameContainer
 .faloo.com##[class^="ad_"]
 .ifeng.com##div[class^="adv"],.l_ifeng_com,[class^="vAd"],[class^="newAd"],[class^="ad"],[class*="FNewRAvtLisBox"],#wx,.h_top_box,.slide_popo_modal
 .ithome.com###con>div:not([id]):not([class]),.AdblockBanner
+.mydrivers.com##.baidu,body>div[style]:not([class]):not([id])
 .qq.com##[class*="topAD"],[class*="ad-box"],[adconfig_lview],body>div[style*="width:1000px"],[class*="adzxbtl"],[class*="l-qq-com"],[class*="l_qq_com"],.mian-ad,.yw-gg-float,.ggshow,[class*="-Ad"]
 126.com,yeah.net,mail.163.com##.gWel-bottom,li[role="complementary"],.main-inner-wrap>*:not(#loginBlock),div[id$="FooterDiv"],div[id$="AdDiv"],[id*="-ad-"],[id*="_popup_"],.nui-block-hasClose,#loginExt,[id$="Ad"],[id$="BannerDiv"]
 17173.com##[class*="Ad17173"],[id^="adLink"],[class*="ad17173"]:not(.game-hot)
@@ -819,7 +823,6 @@ maoyun.tv###tui,[class^="tui"]
 mop.com##.header[style],[class^="dsp"],[suffix*="subtype=new360"],.ad-r,.ad-h,.gg-right,.gg-wrap
 myzaker.com##a[href*="ads_id="],[id^="dsp_id"]
 new.qq.com##[class^="g-box"]
-news.mydrivers.com##[class*="adggg"],[class^="ad_baidu"],#recommend,.news_bt+div[style],.baidu
 nipic.com##[class*="advertCloseBtn"]
 orsoon.com##.down-sect2,#other-link,.recover
 oschina.net##.float-adbox,[data-traceid*="_ad"],.jj
@@ -969,6 +972,7 @@ zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],
 52pk.com##%body>div[style*="background"]{background:none!important}
 aizhan.com##&li:has(img[src*="watermark.png"]),.azone
 bbs.pcbeta.com##%style[type="text/css"]+div{height:auto!important}
+bbs.zhiyoo.com##%body{overflow:auto!important}
 blog.csdn.net##%ol.hljs-ln{width:auto!important}
 enjoy.eastday.com##%#contentMain{height:1575px!important}
 gaoqing.la##%body{background-image:url()!important}
