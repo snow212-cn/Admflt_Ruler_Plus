@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-03
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-07
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -953,7 +953,7 @@ xinhuanet.com##[id^="YCADS"],.Xfuchaung
 xmfish.com###marry_laping,.bobing-theme,.wrapxy,.cmp_v,#b_login
 yahoo.com##[id*="-Ad"]
 ynet.com##.ynetGCom
-yq.aliyun.com##.yq-main-left>a[rel="nofollow"]
+yq.aliyun.com##.yq-main-left>a[rel="nofollow"],.yq-a-d,.yq-a-r-bottom
 ys.km.com###baiduIvy,#bottom_focus_ivy,#js-swiper-focus-banner
 yunlaige.com##[id*="_baidu"],#downdiv
 yzz.cn###ad-game,.m-gs,.shuwu-img,.shuwu-qr,.agift
@@ -1393,7 +1393,7 @@ pptv.com##[id^="afp_"],#video-download-game,.download-iconbar
 v.17173.com##.side-ad,.ad-lt,.ad-rt
 ||17173im.alllget.com/main/s$S@"t": ?"\d{1,2}"@"t":"0"@
 ||17173im.alllget.com/main/s$S@"u": ?"\/\/.+\.(mp4|swf)",@"u":"/block_res/null.mp4",@
-||17173im.alllget.com/main/s$S@"j": ?"[^"]+?",@"j":"about:blank",@
+||17173im.alllget.com/main/s$S@"j": ?"[^"]+?",@"j":"",@
 !======[v.17173.com]---↑
 
 !======[www.1905.com]---↓
