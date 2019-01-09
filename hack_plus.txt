@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-07
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-09
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -997,6 +997,12 @@ zimuzu.tv##%#output{background:url(https://i.loli.net/2018/10/30/5bd8793b200fd.j
 zol.com.cn##%body{background-image:none!important}
 !======[Admflt ABPex css]---↑
 
+!======[Hack_plus expanded ruler]---↓
+blog.csdn.net*##&FuckXZ
+m.tywx.la*##&FuckXHR
+www.360doc.com*##&FuckXZ
+!======[Hack_plus expanded ruler]---↑
+
 !======[replace]---↓
 .miaozhen.com$f@302:s@^https?:\/\/.*@http://119.29.29.29/404@
 /Scripts/jquery-1.4.1.min.js$f@302:s@^https?:\/\/.*/jquery.*.js@https://upcdn.b0.upaiyun.com/libs/jquery/jquery-1.4.1.min.js@
@@ -1107,6 +1113,7 @@ media/adv_new_tmp/*.m3u8$f@302:s@^http://.*$@http://ssl.admflt.com/doc/block/blo
 ||.baidu.com/^.gif?*&
 ||.tanx.com/*?*&*&
 ||/index/q.php?cid=
+||/log.php?enc
 ||/logger.js?
 ||365dmp.com/*?
 ||analytics.126.net
@@ -1237,7 +1244,7 @@ openload.co/embed/$s@</body>@<script>document.querySelector('.vjs-big-play-butto
 tieba.baidu.com,tieba.com,jump2.bdimg.com##%body,#glob{margin-top:0!important}
 tieba.baidu.com,tieba.com,jump2.bdimg.com##.l_banner,.content-ad,.appPromote,#pblist>li:not([tid]):not([data-info]),a.j_click_stats,a.j_click_stats+*,.tl_shadow.tl_shadow_new+[class*="tl_shadow_new "]
 tieba.baidu.com,zhidao.baidu.com,wenku.baidu.com##[class*="EC_"],[class*="union"]
-zhidao.baidu.com###cms-scroll,#wgt-promotions,.question-number-text-chain,.ec-ad
+zhidao.baidu.com###cms-scroll,#wgt-promotions,.question-number-text-chain,.ec-ad,#wgt-ad-right-fixed
 wenku.baidu.com##.banner-wrap,[href*="adfree"],.lastcell-dialog,[class*="adWrap"],.search-result>[id],[class*="vip-close"],.yuedu-recommend-wrap iframe,#banurl
 ||wkstatic.bdimg.com/static/wkview/pkg/viewcommon2$S@(/ad|/crm)@/noad@
 !||baidu.com/link?url=$S@^.*?<noscript>@@s
@@ -1454,8 +1461,8 @@ v.17173.com##.side-ad,.ad-lt,.ad-rt
 ||block_res/null.mp4$m@res:block/null.mp4
 ||block_res/block.m3u8$m@res:block/block.m3u8
 ||/doc/fuckcss.js
-|http://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js></script><script src=http://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
-|https://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js></script><script src=https://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
+|http://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js charset=UTF-8></script><script src=http://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
+|https://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js charset=UTF-8></script><script src=https://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
 ||*/*.css|$S@z-index(:| )*(9){4,5}\d@${1};display:none!important;max-width:0!important;max-height:0;overflow:hidden;visibility:hidden!important;hackcss:@
 !------[全局处理浮动窗+隐藏类规则屏蔽增强end]
 
