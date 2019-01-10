@@ -16,8 +16,8 @@ S:x-boy.cn
 @@|http://exmail.qq.com$pass
 @@|https://*/^.php?^=*search
 @@|https://g.alicdn.com/*.css$pass
-@@|https://g.alicdn.com/*tm/shop/$pass
 @@|https://g.alicdn.com/??kissy/$pass
+@@|https://g.alicdn.com/??tm/$pass
 @@|https://g.alicdn.com/ali-mod/??$pass
 @@|https://g.alicdn.com/alilog/$pass
 @@|https://g.alicdn.com/aliww/$pass
