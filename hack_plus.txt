@@ -15,7 +15,8 @@ S:x-boy.cn
 @@|http://bbs.*/^.php?uid=*
 @@|http://exmail.qq.com$pass
 @@|https://*/^.php?^=*search
-@@|https://g.alicdn.com/*.css$pass
+@@|https://g.alicdn.com/*.css*$pass
+@@|https://g.alicdn.com/??*.css*$pass
 @@|https://g.alicdn.com/??kissy/$pass
 @@|https://g.alicdn.com/??tm/$pass
 @@|https://g.alicdn.com/ali-mod/??$pass
