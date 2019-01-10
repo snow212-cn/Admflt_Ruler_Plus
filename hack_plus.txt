@@ -103,19 +103,20 @@ S:www.aliyun.com
 S:www.sonkwo.com
 S:ynuf.aliapp.org
 S:yunaq.com
+.eastday#@#[id*="contain"]>.widt_ad
 apk.tw/plugin.php?#@#p.adsbygoogle
 bbs.zol.com.cn#@##bookContent
 blog.sina.com.cn/s/#@##sina_keyword_ad_area2
 news.xinhuanet.com#@#.domPC
 paopaoche.net#@##address
 uu.163.com#@#[class*="down"][id]
+web.sanguosha.com#@##gameContainer
 www.baofeng.com#@##js_ads_panel
 www.gaoqingkong.com#@##ad.search_site
 www.guangyuanol.cn#@#.lb_right>[class*="ad"]
 www.ttmeiju.vip#@##wrapper a[href*="weibo.com"]>img[src*="fuimg.com"]
 www.veryhuo.com#@#.down_ads.pad
 yzz.cn#@#center>a[target="_blank"]
-web.sanguosha.com#@##gameContainer
 !======[wlist]---↑
 
 !======[adm add socks]-----↓
@@ -734,7 +735,7 @@ onlytvb.com##[class="mdl-cell--4-col-desktop"],[class="mdl-cell mdl-cell--4-col-
 .csdn.net##.advert,.mediav_ad,[data-mod][style*="height"],[class*="ad-box"],[id*="dmp_ad_"],.pulllog-box,#adContent,#ad-div
 .faloo.com##[class^="ad_"]
 .ifeng.com##div[class^="adv"],.l_ifeng_com,[class^="vAd"],[class^="newAd"],[class^="ad"],[class*="FNewRAvtLisBox"],#wx,.h_top_box,.slide_popo_modal
-.ithome.com###con>div:not([id]):not([class]),.AdblockBanner
+.ithome.com###con>div:not([id]):not([class]),.AdblockBanner,[class^="rm-modal"]
 .mydrivers.com##.baidu,body>div[style]:not([class]):not([id])
 .qq.com##[class*="topAD"],[class*="ad-box"],[adconfig_lview],body>div[style*="width:1000px"],[class*="adzxbtl"],[class*="l-qq-com"],[class*="l_qq_com"],.mian-ad,.yw-gg-float,.ggshow,[class*="-Ad"]
 126.com,yeah.net,mail.163.com##.gWel-bottom,li[role="complementary"],.main-inner-wrap>*:not(#loginBlock),div[id$="FooterDiv"],div[id$="AdDiv"],[id*="-ad-"],[id*="_popup_"],.nui-block-hasClose,#loginExt,[id$="Ad"],[id$="BannerDiv"]
@@ -1383,9 +1384,9 @@ wasu.cn##[class*="ads_"],[class*="_ads"],.qp
 ||sports.eastday.com/jscss/*/theme_video.js$S@(var adtime ?= ?)\d{1,2}@${1}0@
 ||sports.eastday.com/jscss/*/theme_video.js$s@success@error@ig
 ||sports.eastday.com/jscss/*index*.js$s@citys.indexOf(city)@1@
-||video.eastday.com/*new_gethot.js$S@time ?== ?-?\d{1,2} ?&& ?!isTrue@1@
-||video.eastday.com/*new_gethot.js$S@(videShowNum) ?>= ?\d@videoAd@
+||video.eastday.com/*new_gethot.js$S@if\((videShowNum|baiduShowNum)@if(666@
 ||video.eastday.com/*new_gethot.js$S@'[^']+?\.mp4'@'/block_res/null.mp4'@
+||video.eastday.com/assets/js/redirect.js
 video.eastday.com##.countdown,[class^="video"]>a,.beforegg,.ad.poa,[class*="right_adv"],[class*="rightAd"],iframe[src*="baidu"],.index-ad,.shopwindow,#floating_text_ad,[class*="db11"],.con_11
 !||video.eastday.com/json_newversion/*.json
 !======[video.eastday.com]---↑
