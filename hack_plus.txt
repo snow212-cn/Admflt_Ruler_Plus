@@ -366,6 +366,7 @@ web.sanguosha.com#@##gameContainer
 ||/521fl/tj.js
 ||/@baidu/*index.js
 ||/Adloader/
+||/Public/myjs/*.js
 ||/a/display.php?r=
 ||/ad-img/
 ||/ad_mode.html
@@ -465,6 +466,7 @@ web.sanguosha.com#@##gameContainer
 ||ceshi.maoyun.tv
 ||china.com.cn/201^ads/
 ||china.com/*china.ad
+||chinardf.com.cn
 ||chinaso.com/adshow
 ||chucity.com
 ||click.union.vip.com
@@ -517,6 +519,7 @@ web.sanguosha.com#@##gameContainer
 ||g.doyo.cn/js/dygg*.js
 ||g.fastapi.net
 ||g^.tagtic.cn/$script
+||gaokao100.com.cn
 ||gg*qiumibao.com
 ||gg.cs090.com$script
 ||gg.dsxdn.com/2cto/$script
@@ -725,6 +728,7 @@ web.sanguosha.com#@##gameContainer
 !======[block]---↑
 
 !======[ABP css]---↓
+onlytvb.com##[class="mdl-cell--4-col-desktop"],a[href*="//gg."]
 .163.com##[class^="ad-"],[class*="_ad"],[class*="ad_"]:not([class*="head"]),[class*="-ad-"],div[adtype],[onclick^="fcBox"],.post_content_endad,.ga
 .cr173.com##.m-black-bg,#full_downad
 .csdn.net##.advert,.mediav_ad,[data-mod][style*="height"],[class*="ad-box"],[id*="dmp_ad_"],.pulllog-box,#adContent,#ad-div
@@ -968,6 +972,7 @@ zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],
 !======[ABP css]---↑
 
 !======[Admflt ABPex css]---↓
+onlytvb.com##%[class="mdl-cell--8-col-desktop"]{width:100%!important}
 126.com,yeah.net,mail.163.com##%#mainCnt{background:none!important}
 4399.com##%body{background-image:none!important}
 51cto.com##%.top_bg{height:85px!important}
