@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-09
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-10
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -16,6 +16,7 @@ S:x-boy.cn
 @@|http://exmail.qq.com$pass
 @@|https://*/^.php?^=*search
 @@|https://g.alicdn.com/*.css$pass
+@@|https://g.alicdn.com/*tm/shop/$pass
 @@|https://g.alicdn.com/??kissy/$pass
 @@|https://g.alicdn.com/ali-mod/??$pass
 @@|https://g.alicdn.com/alilog/$pass
