@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-13
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-14
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -111,6 +111,7 @@ news.xinhuanet.com#@#.domPC
 paopaoche.net#@##address
 uu.163.com#@#[class*="down"][id]
 web.sanguosha.com#@##gameContainer
+www.76mao.com#@#.gg
 www.baofeng.com#@##js_ads_panel
 www.gaoqingkong.com#@##ad.search_site
 www.guangyuanol.cn#@#.lb_right>[class*="ad"]
@@ -879,7 +880,7 @@ v2ex.com##.inner[align="center"],.inner[align="center"]+.sidebar_compliance,.sid
 v2ex.com/t/##.inner>a:not([class]):not([id]):not([href^="/"]),.inner>span[class],.inner>strong.green
 vipsite.info###yhq,.sj-nav-down-search,[style*="text-align:center"]
 webkaka.com##a[href*="/click/"],#div_top,#dedenews,span[class*="Ad"],p[class*="Ad"]
-weibo.com##div[ad-data],[feedtype="ad"],a[href*="adid="],[suda-data="key=tblog_weibologin3&value=picture"],.wbv-ad,a[href*="shop.sc.weibo.com"][href*="jump_url="]
+weibo.com##div#WB_webim,div[ad-data],[feedtype="ad"],a[href*="adid="],[suda-data="key=tblog_weibologin3&value=picture"],.wbv-ad,a[href*="shop.sc.weibo.com"][href*="jump_url="]
 wemedia.ifeng.com##.h_top_box,.yc_con_r a iframe
 www.17ce.com##[class^="add_"]
 www.17sucai.com##div[class^="tb"][class*="x"]$B
