@@ -728,9 +728,13 @@ yzz.cn#@#center>a[target="_blank"]
 ||zlongad.com/ad/
 ||zol-img.com.cn/detail_ad/
 ||www.downxia.com/downinfo/
+||nidq.zxin131.cn
+||xmkanshu.com/adapi
+||xmkanshu.com/*/clipboard*js
 !======[block]---↑
 
 !======[ABP css]---↓
+xmkanshu.com##.winds_dadt,.winds_dadt+div[id][style],div[id^="bottom_"],div[id^="btd_"],section[onclick]
 onlytvb.com##[class="mdl-cell--4-col-desktop"],[class="mdl-cell mdl-cell--4-col-desktop"],a[href*="//gg."]
 .163.com##[class^="ad-"],[class*="_ad"],[class*="ad_"]:not([class*="head"]),[class*="-ad-"],div[adtype],[onclick^="fcBox"],.post_content_endad,.ga
 .cr173.com##.m-black-bg,#full_downad
@@ -869,7 +873,7 @@ tech.ifeng.com##[class^="adv"]
 tianya.cn##[id*="js-tybc"]
 tiexue.net##[onclick*="click_out_ad"],a[href*="txads_from"],.goushi,[id^="Baidu_WW"],[id^="Baidu_PIC"],.goudan,.xiaqi1,[style*="a_d_hint.png"]
 tool.lu##.ad-container
-ttmeiju.vip##[class*="duilian"],[style*="margin-top"][style*="margin-bottom"]
+ttmeiju.vip##[class*="duilian"],#new-user,#dialog-overlay
 tv.sohu.com###beautyLive,#miaozhenad,#playtoolbartg
 ufanw.com###banne
 user.qzone.qq.com##li.f-single-biz,#top_tips_container,[id*="_ad_"],[class*="_ad_"],[class*="ads_"],[class*="right-ad"],[class*="gg-qz-"],#qz_notification,#top_tips_seat
@@ -953,7 +957,7 @@ www.yxdown.com##div[id*="adv"],#highdown,.pic_show
 www.yy.com##.bg-link,#sideNotice
 www.zhangxinxu.com###topAdOut,[id^="da"][id$="Float"],a[onClick][style*="display:block!important"]
 www.zhicheng.com###m_ccs
-www.zimuzu.tv##div[style]>a[rel="nofollow"],#focus>ul>:nth-child(1),#focus>ul>:last-child
+www.zimuzu.##div[style]>a[rel="nofollow"],#focus ul
 www.zyzhan.com##a[href*="AdvertisInfo"],#adNewLeft,#adNewRight
 wzshipin.com##img[width="1200"],.boxg
 xcar.com.cn###xcarpackage,.ad980
@@ -975,7 +979,6 @@ zol.com.cn##[class*="ad-box"],iframe[src*="/ad/"],.zmall-ad-1000,[class$="_ad"],
 !======[ABP css]---↑
 
 !======[Admflt ABPex css]---↓
-onlytvb.com##%[class="mdl-cell--8-col-desktop"],[class="mdl-cell mdl-cell--8-col-desktop"]{width:100%!important}
 126.com,yeah.net,mail.163.com##%#mainCnt{background:none!important}
 4399.com##%body{background-image:none!important}
 51cto.com##%.top_bg{height:85px!important}
@@ -988,6 +991,7 @@ enjoy.eastday.com##%#contentMain{height:1575px!important}
 gaoqing.la##%body{background-image:url()!important}
 hanhande.com##%body>.warp{background:none!important}
 item.btime.com##%.header.header-item{padding-bottom:30px}
+onlytvb.com##%[class="mdl-cell--8-col-desktop"],[class="mdl-cell mdl-cell--8-col-desktop"]{width:100%!important}
 s.weibo.com##&.card-wrap:has(iframe)
 user.qzone.qq.com##%.top-fix-inner{margin-top:0!important}
 www.aihami.com##%.conText>.recommend{margin-top:4em}
@@ -1002,6 +1006,7 @@ www.rs05.com##&li:contains(\u652f\u4ed8\u5b9d),li:contains(\u5bb6\u91cc\u6ca1\u7
 www.tiexue.net/ShowPicClass##%.picleft{display:block!important}
 www.yxdown.com##%#topsearch{top:auto!important}
 www.yy.com##%#banner-fg{background:none!important}
+www.zimuzu.##%#focus{background: url(https://i.loli.net/2018/10/24/5bd0229761948.jpg) 0% /cover}
 zdface.com/*.shtml##%.top-tool{margin-top:60px}
 zimuzu.tv##%#output{background:url(https://i.loli.net/2018/10/30/5bd8793b200fd.jpg) center /cover!important}
 zol.com.cn##%body{background-image:none!important}
@@ -1010,6 +1015,7 @@ zol.com.cn##%body{background-image:none!important}
 !======[Hack_plus expanded ruler]---↓
 blog.csdn.net*##&FuckXZ
 m.tywx.la*##&FuckXHR
+m.biquyun.com*##&FuckXHR
 www.360doc.com*##&FuckXZ
 !======[Hack_plus expanded ruler]---↑
 
@@ -1340,7 +1346,7 @@ youtube.com##.video-ads,#player-ads,ytd-compact-promoted-video-renderer,#masthea
 !======[www.youtube.com]---↑
 
 !======[www.iqiyi.com]---↓
-iqiyi.com##[id^="1000"],.banner_box,.vipFloatbgCls,.iqp-filter-box,.J_play-underFrame,.qy-mod-ad,.integral_box,.search_result_download,.anchor-wenjuan,.tw-app-download,.iqp-box-integral,[data-cupid="container"]>div[style*="position"][style*="pointer"]
+iqiyi.com##[id^="1000"],.banner_box,.vipFloatbgCls,div[class="iqp-filter-tip"],.J_play-underFrame,.qy-mod-ad,.integral_box,.search_result_download,.anchor-wenjuan,.tw-app-download,.iqp-box-integral,[data-cupid="container"]>div[style*="position"][style*="pointer"]
 live.iqiyi.com###modal[data-count]
 www.iqiyi.com/*.html##.rightPCAdv,.pca-img
 ||cupid.iqiyi.com/show2?e=*$S@("\w*?":")\d+?",@${1}0",@
