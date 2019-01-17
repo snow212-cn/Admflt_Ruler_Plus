@@ -1,4 +1,4 @@
-!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-14
+!-----| ADM不特别规则[ emCupid ] Last modified: 2019-01-18
 !-----| 反馈&交流QQ群：650740600 （唯一一群没有分号也不准备建分群）
 
 !======[wlist for self]---↓
@@ -72,6 +72,7 @@ S:api.weibo.com
 S:auth.sonkwo.com
 S:bitwarden.com
 S:cart.aliyun.com
+S:cc.10010.com
 S:cf.aliyun.com
 S:cloud.tencent.com
 S:cloudflare.com
@@ -728,7 +729,6 @@ yzz.cn#@#center>a[target="_blank"]
 ||zlongad.com/ad/
 ||zol-img.com.cn/detail_ad/
 ||www.downxia.com/downinfo/
-||nidq.zxin131.cn
 ||xmkanshu.com/adapi
 ||xmkanshu.com/*/clipboard*js
 ||adxxx.com
@@ -844,7 +844,7 @@ oschina.net##.float-adbox,[data-traceid*="_ad"],.jj
 outlook.live##._n_h
 pan.baidu.com##.ad-platform-tips
 pcauto.com.cn##[class*="ivy"],[id^="ad"],.btn-zfb
-pconline.com.cn##iframe[id^="ad"],a[id^="ad"],[class^="ivy"],[class*="JCZ-"],[class*="jcz-"],#Jappinfo,.PCdlWrap,.navi-bottom,.softjs3,#JrightSideFocus
+pconline.com.cn##iframe[id^="ad"],a[id^="ad"],a[href*="/youhui/"][href*="#ad="],[class^="ivy"],[class*="JCZ-"],[class*="jcz-"],#Jappinfo,.PCdlWrap,.navi-bottom,.softjs3,#JrightSideFocus
 player.s1905.com##div[id][style*="block;"]
 q.z.vip.totv.72du.com##.secs strong
 qiannao.com##a[href*="from=qiao"]
@@ -1479,7 +1479,6 @@ v.17173.com##.side-ad,.ad-lt,.ad-rt
 ||block_res/null.png$m@res:block/null.png
 ||block_res/null.mp4$m@res:block/null.mp4
 ||block_res/block.m3u8$m@res:block/block.m3u8
-||/doc/fuckcss.js
 |http://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js charset=UTF-8></script><script src=http://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
 |https://$S@((?<!<!--)(?=<html.*?>)[\W\S]*?<head.*?>|<meta[^>]+?name[^>]+?>|<meta[^>]+?charset[^>]+?>)([\s]{1,2}|)@${1}${2}<script src=/fuckcss/fcss_w.js charset=UTF-8></script><script src=https://ssl.admflt.com/doc/fcss.min.js charset=UTF-8></script><script async src=/fuckcss/test_ins.js></script>${2}@im
 ||*/*.css|$S@z-index(:| )*(9){4,5}\d@${1};display:none!important;max-width:0!important;max-height:0;overflow:hidden;visibility:hidden!important;hackcss:@
